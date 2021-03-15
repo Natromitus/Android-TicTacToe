@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Game">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_statusBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_firstPlayerMove"
+            android:textSize="40sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llay_boardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="95"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_prevMove"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:text="@string/tv_prevMove"
+            android:textSize="30dp"
+            android:layout_margin="5px" />
+
+        <Button
+            android:id="@+id/btn_nextMove"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:text="@string/tv_nextMove"
+            android:textSize="30dp"
+            android:layout_margin="5px" />
+
+        <Button
+            android:id="@+id/btn_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tv_restart"
+            android:textSize="14dp"
+            android:layout_margin="5px" />
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tv_home"
+            android:textSize="14dp"
+            android:layout_margin="5px" />
+    </LinearLayout>
+</LinearLayout>

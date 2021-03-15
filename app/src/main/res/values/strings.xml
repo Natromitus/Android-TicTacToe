@@ -1,0 +1,27 @@
+<resources>
+    // General
+    <string name="app_name">Piškvorky</string>
+    <string name="tv_author">Vytvoril Sebastián Stupák</string>
+
+    // Main Activity
+    <string name="tv_header">Piškvorky</string>
+    <string name="btn_makeGame">Vytvoriť hru</string>
+    <string name="btn_settings">Nastavenia</string>
+
+    // Settings
+    <string name="tv_settings">Nastavenia</string>
+    <string name="tv_mapSize">Veľkosť mapy</string>
+    <string name="tv_connect">Počet pre výhru</string>
+    <string name="btn_saveSettings">Uložiť</string>
+
+    // Game
+    <string name="tv_firstPlayerMove">Hráč 1. je na ťahu</string>
+    <string name="tv_secondPlayerMove">Hráč 2. je na ťahu</string>
+    <string name="tv_firstPlayerWin">Hráč 1. vyhral</string>
+    <string name="tv_secondPlayerWin">Hráč 2. vyhral</string>
+    <string name="tv_draw">Remíza</string>
+    <string name="tv_prevMove">&lt;</string>
+    <string name="tv_nextMove">&gt;</string>
+    <string name="tv_restart">Reštart</string>
+    <string name="tv_home">Domov</string>
+</resources>

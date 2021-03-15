@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // General
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="tv_author">Created by Sebastián Stupák</string>
+
+    // Main Activity
+    <string name="tv_header">Tic Tac Toe</string>
+    <string name="btn_makeGame">Create game</string>
+    <string name="btn_settings">Settings</string>
+
+    // Settings
+    <string name="tv_settings">Settings</string>
+    <string name="tv_mapSize">Map size</string>
+    <string name="tv_connect">Connect</string>
+    <string name="btn_saveSettings">Save</string>
+
+    // Game
+    <string name="tv_firstPlayerMove">Player 1. turn</string>
+    <string name="tv_secondPlayerMove">Player 2. turn</string>
+    <string name="tv_firstPlayerWin">Player 1. won</string>
+    <string name="tv_secondPlayerWin">Player 2. won</string>
+    <string name="tv_draw">Draw</string>
+    <string name="tv_prevMove">&lt;</string>
+    <string name="tv_nextMove">&gt;</string>
+    <string name="tv_restart">Restart</string>
+    <string name="tv_home">Home</string>
+</resources>
